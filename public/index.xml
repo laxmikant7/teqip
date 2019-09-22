@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Advanced Data Analytics using Machine Learning (ADAML - 2019)</title>
+    <link>https://teqipfdp-2019.herokuapp.com/</link>
+    <description>Recent content on Advanced Data Analytics using Machine Learning (ADAML - 2019)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://teqipfdp-2019.herokuapp.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

@@ -1,0 +1,427 @@
+baseurl: "https://teqipfdp-2019.herokuapp.com/"
+title: "Advanced Data Analytics using Machine Learning (ADAML - 2019)"
+canonifyurls: true
+theme: "hugo-conference"
+
+GoogleAnalytics: "UA-9232216-1"
+
+params:
+  # Conference info
+  Name: ""
+  Description: ""
+  Date: ""
+  #Price: "" # If your event is free, just comment this line
+  Venue: "Acropolis Institute of Technology and Research"
+  Address: "Mangliya Square, Bypass Rd, Mangliya"
+  City:  "Indore"
+  State: "Madhya Pradesh"
+  GoogleMapsKey: "my-secret-maps-key"
+
+  # Active sections on the website to deactivate comment out with '#'
+  # you can also change order here and it will reflect on page
+  Sections:
+    - about
+    - location
+    - speakers
+    - schedule
+    - sponsors
+    - partners
+    #- contact
+
+  # Titles which you can translate to other languages
+  Titles:
+    about: "About"
+    location: "Location"
+    speakers: "Speakers"
+    schedule: "Schedule"
+    sponsors: "Sponsors"
+    partners: "Partners"
+    contact: "Contact"
+
+  # The Call To Action button at the header,
+  # If you don't want this, just remove the callToAction property.
+  CallToAction:
+    text: "Register now!"
+    link: "https://bit.ly/2BdWJG3"
+
+  Location:
+      name: "Acropolis"
+  
+  # List of Sponsors
+  Sponsors:
+    - name: "Rajiv Gandhi Proudyogiki Vishwavidyalaya"
+      logo: "/img/rgpv.png"
+      url: "https://www.rgpv.ac.in/"
+
+  # List of Partners
+  Partners:
+    - name: "Rajiv Gandhi Proudyogiki Vishwavidyalaya"
+      logo: "/img/rgpv.jpg"
+      url: "https://www.rgpv.ac.in/"
+
+    - name: "Computer Society of India"
+      logo: "/img/partnercsi.png"
+      url: "http://www.csi-india.org/"
+
+    - name: "Association for Computing Machinery"
+      logo: "/img/partneracm.png"
+      url: "http://india.acm.org/"
+
+
+  # The entire schedule
+  Schedule:
+    - name: "Registration and Kity Distribution"
+      time: "08h30"
+      date: "16 Jan"
+
+    - name: "Inaugural ceremony"
+      time: "9h30"
+      date: "16 Jan"
+
+    - name: "Dr. Aruna Tiwari (Professor, IIT Indore)"
+      photo: ""
+      bio: ""
+      company: ""
+      link:
+        href: ""
+        text: ""
+      presentation:
+        title: "Introduction To Machine Learning"
+        description: "Introduction To Machine Learning, Applications of
+Machine Learning and few Industry examples,
+Model and Cost Function, Gradient Descent,
+Parameter Learning and Linear Algebra"
+        time: "11h15"
+        date: "16 Jan"
+
+    - name: "Lunch"
+      time: "13h00"
+      date: "16 Jan"
+
+    - name: "Mr. Anidhya Bhatnakar (Cofounder & Solution Architect, Medha Innovation Private Limited)"
+      photo: ""
+      bio: ""
+      company: ""
+      link:
+        href: ""
+        text: ""
+      presentation:
+        title: "Lab Session"
+        description: "Lab Session"
+        time: "13h50"
+        date: "16 Jan"
+
+    - name: "Tea-break"
+      time: "15h30"
+      date: "16 Jan"
+
+    - name: "Mr. Anidhya Bhatnakar (Cofounder &
+Solution Architect, Medha Innovation
+Private Limited)
+"
+      photo: ""
+      bio: ""
+      company: ""
+      link:
+        href: ""
+        text: ""
+      presentation:
+        title: "Lab Session"
+        description: "Lab Session"
+        time: "15h45"
+        date: "16 Jan"
+
+    - name: "R. Pachori (Associate Professor, IITIndore)"
+      photo: ""
+      bio: ""
+      company: ""
+      link:
+        href: ""
+        text: ""
+      presentation:
+        title: "Regression"
+        description: "Linear Regression, Multivariate Linear Regression,
+Classification and Regression"
+        time: "09h00"
+        date: "17 Jan"
+
+    - name: "Tea-break"
+      time: "11h00"
+      date: "17 Jan"
+
+    - name: "Dr. M. Tanveer (Assistant Professor, IIT
+Indore)"
+      photo: ""
+      bio: ""
+      company: ""
+      link:
+        href: ""
+        text: ""
+      presentation:
+        title: "Regression"
+        description: "Logistic Regression, Multiclass Classification and
+Regularized Linear Regression, Hypothesis and
+Neural Networks"
+        time: "11h15"
+        date: "17 Jan"
+
+    - name: "Lunch-break"
+      time: "13h00"
+      date: "17 Jan"
+
+    - name: "Mr. Anidhya Bhatnakar (Cofounder &
+Solution Architect, Medha Innovation
+Private Limited)
+"
+      photo: ""
+      bio: ""
+      company: ""
+      link:
+        href: ""
+        text: ""
+      presentation:
+        title: "Lab Session"
+        description: "Lab Session"
+        time: "13h50"
+        date: "17 Jan"
+
+    - name: "Tea-break"
+      time: "15h30"
+      date: "17 Jan"
+
+    - name: "Mr. Anidhya Bhatnakar (Cofounder &
+Solution Architect, Medha Innovation
+Private Limited)
+"
+      photo: ""
+      bio: ""
+      company: ""
+      link:
+        href: ""
+        text: ""
+      presentation:
+        title: "Lab Session"
+        description: "Lab Session"
+        time: "15h45"
+        date: "17 Jan"
+    - name: "Prof. Surendra Gupta (Professor, SGSITS Indore)"
+      photo: ""
+      bio: ""
+      company: ""
+      link:
+        href: ""
+        text: ""
+      presentation:
+        title: "Cost Function"
+        description: "Cost Function and Back propagation Algorithm,
+Hypothesis Curve and Bias vs Variance, Large
+Margin Classification"
+        time: "09h00"
+        date: "18 Jan"
+
+    - name: "Tea-break"
+      time: "11h00"
+      date: "18 Jan"
+        
+    - name: "Prof. Surendra Gupta (Professor, SGSITS Indore)"
+      photo: ""
+      bio: ""
+      company: ""
+      link:
+        href: ""
+        text: ""
+      presentation:
+        title: "Cost Function"
+        description: "Classification and its use cases, Decision Tree
+Algorithm for Decision Tree Induction, Creating a
+Perfect Decision Tree, Confusion Matrix, Random
+Forest"
+        time: "11h15"
+        date: "18 Jan"
+
+    - name: "Lunch-break"
+      time: "13h00"
+      date: "18 Jan"
+
+    - name: "Mr. Anidhya Bhatnakar (Cofounder &
+Solution Architect, Medha Innovation
+Private Limited)
+"
+      photo: ""
+      bio: ""
+      company: ""
+      link:
+        href: ""
+        text: ""
+      presentation:
+        title: "Lab Session"
+        description: "Lab Session"
+        time: "13h50"
+        date: "18 Jan"
+
+    - name: "Tea-break"
+      time: "15h30"
+      date: "18 Jan"
+
+    - name: "Mr. Anidhya Bhatnakar (Cofounder &
+Solution Architect, Medha Innovation
+Private Limited)
+"
+      photo: ""
+      bio: ""
+      company: ""
+      link:
+        href: ""
+        text: ""
+      presentation:
+        title: "Lab Session"
+        description: "Lab Session"
+        time: "15h45"
+        date: "18 Jan"
+
+
+    - name: "Dr. Sevendu Rup (Assistant Professor, IIT Bhubaneswar)"
+      photo: ""
+      bio: ""
+      company: ""
+      link:
+        href: ""
+        text: ""
+      presentation:
+        title: "Unsupervised Learning"
+        description: "Unsupervised Learning – Clustering,
+Dimensionality Reduction & Principal Component
+Analysis (PCA), Anomaly Detection"
+        time: "09h00"
+        date: "19 Jan"
+
+    - name: "Tea-break"
+      time: "11h00"
+      date: "19 Jan"
+
+    - name: "Dr. Sevendu Rup (Assistant Professor, IIT
+Bhubaneswar)"
+      photo: ""
+      bio: ""
+      company: ""
+      link:
+        href: ""
+        text: ""
+      presentation:
+        title: "Introduction to Data Analytics"
+        description: "Introduction to Data Analytics"
+        time: "11h15"
+        date: "19 Jan"
+
+    - name: "Lunch-break"
+      time: "13h00"
+      date: "19 Jan"
+
+    - name: "Mr. Anidhya Bhatnakar (Cofounder &
+Solution Architect, Medha Innovation
+Private Limited)
+"
+      photo: ""
+      bio: ""
+      company: ""
+      link:
+        href: ""
+        text: ""
+      presentation:
+        title: "Lab Session"
+        description: "Lab Session"
+        time: "13h50"
+        date: "19 Jan"
+
+    - name: "Tea-break"
+      time: "15h30"
+      date: "19 Jan"
+
+    - name: "Mr. Anidhya Bhatnakar (Cofounder &
+Solution Architect, Medha Innovation
+Private Limited)
+"
+      photo: ""
+      bio: ""
+      company: ""
+      link:
+        href: ""
+        text: ""
+      presentation:
+        title: "Lab Session"
+        description: "Lab Session"
+        time: "15h45"
+        date: "19 Jan"
+
+
+
+
+    - name: "Prof. Surendra Gupta (Professor, SGSITS Indore)"
+      photo: ""
+      bio: ""
+      company: ""
+      link:
+        href: ""
+        text: ""
+      presentation:
+        title: "Reinforcement Learning"
+        description: "Reinforcement Learning and their utility"
+        time: "09h00"
+        date: "20 Jan"
+
+    - name: "Tea-break"
+      time: "11h00"
+      date: "20 Jan"
+
+    - name: "Dr. Jitendra Chhabra (Professor, NIT
+Kurukshetra)"
+      photo: ""
+      bio: ""
+      company: ""
+      link:
+        href: ""
+        text: ""
+      presentation:
+        title: "Deep Learning"
+        description: "Deep Learning and Multitask Learning "
+        time: "11h15"
+        date: "20 Jan"
+
+    - name: "Lunch-break"
+      time: "13h00"
+      date: "20 Jan"
+
+    - name: "Dr. Jitendra Chhabra (Professor, NIT
+Kurukshetra)"
+      photo: ""
+      bio: ""
+      company: ""
+      link:
+        href: ""
+        text: ""
+      presentation:
+        title: "Pedagogy"
+        description: "Pedagogy"
+        time: "13h50"
+        date: "20 Jan"
+
+    - name: "Tea-break"
+      time: "15h30"
+      date: "20 Jan"
+
+    - name: "(Mr. Sanjeev Agrawal, Vice President
+Impetus), Mr. Animesh Kumar (Cofounder
+47 Billion), Mr. Jitendra Chhabra
+(Professor NIT Kurukshetra), Mr. Anidhya
+Bhatnakar (cofounder, Medha Innovation)"
+      photo: ""
+      bio: ""
+      company: ""
+      link:
+        href: ""
+        text: ""
+      presentation:
+        title: "Valedictory Session"
+        description: "Valedictory Session"
+        time: "15h45"
+        date: "20 Jan"
